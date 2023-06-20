@@ -1,0 +1,2924 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+    font-size: 100%;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+a:active {
+    color: darkred;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	width: 1204px;
+	background-image: linear-gradient(180deg, rgba(27,73,116,1.00),steelblue 15%, steelblue 25%, aliceblue 32%, steelblue 50%, rgba(27,73,116,1.00));
+    font-family: serif;
+    background-attachment: fixed;
+	/*background-image: url("images/zengrid.png");
+	background-size: 1204px 1204px;
+	background-repeat:repeat-y;*/
+	/*box-sizing: border-box;*/
+}
+
+.page-wrapper {
+	background-color: rgb(176,196,222,.5);
+	width: 1204px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	border: 1px solid lightsteelblue;
+    position: relative;
+    opacity: 1;
+}
+
+.page-wrapper p, .page-wrapper address {
+    font-family: Belleza, sans-serif;
+}
+
+
+header {
+    padding-top: 0em;
+	background-image: url("images/travelboat_xsm.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-bottom: 10px solid mediumblue;
+	height: 80px;
+	background-color: goldenrod;
+	width: 100%;
+    position: relative;
+    z-index: 50000;
+	
+}
+
+h1 {padding: .25em;
+	margin: -.25em -.1em 0em 0.6em;
+	font-size: 3.52em;
+	color:mediumblue;
+	float: left;
+    text-shadow: -.05em -.03em ghostwhite;
+}
+
+h2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 488px;
+	text-align: center;
+	font-size: 4em;
+	padding: 0;
+}
+
+h3 {
+	font-size: 2.4em;
+	padding: 0em;
+	margin: 0em;
+	margin-top: 1em;
+	padding-top: .25em;
+	padding-left: .5em;
+    position: relative;
+    z-index: 1;
+}
+
+h4 {
+	font-size: 1.8em;
+}
+
+/* News Section */
+
+.mainarticle {
+	float: left;
+	width: 592px;
+	paddng: 0;
+	margin: 0;
+}
+
+.banner {
+    clear: both;
+	background-image: url("images/Virginia-Paradise2.jpg");
+	background-size: cover;
+	border: 2px solid whitesmoke;
+	position: relative;
+    top: 0em;
+	z-index: 2;
+    opacity: .95;
+}
+
+
+#transcend {
+	position: relative;
+    width: 1200px;
+	bottom: .25em;
+	right: 1.64em;
+	font-size: 3em;
+	opacity: .3;
+	color: white;
+}
+
+.newsfeatures {
+	background-color: rgb(176,196,222,0);
+	color: mediumblue;
+	height: 20.3em;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 2.8em;
+}
+
+.newsfeatures h3 {
+	/*border-bottom: 10px solid mediumblue;*/
+	background-color: rgb(176,196,222,0);
+	position: relative;
+	z-index: 2;
+    left: 15%;
+}
+
+.mainarticle {
+	border-top: 10px solid mediumblue;
+	position: relative;
+	z-index: 2;
+}
+
+.mainarticle h4 {
+	padding: 2.8em 0em 1em 0em;
+	color: black;
+	text-align: center;
+	width: 592px;
+	height: 88px;
+	background-image: url("images/cityscape2.jpeg");
+	background-size: 592px 200px;
+	background-repeat: no-repeat;
+	border: 0px solid white;
+	margin: 0em 0em 1.3em;
+	position: relative;
+	z-index: 2;
+}
+
+.mainarticle p {
+    margin: -2em 0em 0em 0em;;
+    
+    padding: .5em 1em .5em 1em;
+    float: left;
+	background-color: mediumblue;
+	color: white;
+	font-size: 1.2em; 
+	position: relative;
+	z-index: 2;
+	
+}
+
+.sidearticles {
+	float: right;
+	border: 0px solid white;
+	width: 612px;
+	height: 260px;
+	background-color: white;
+	position: relative;
+	z-index: 2;
+	border-top: 10px solid mediumblue;
+}
+
+.sidearticles h4 {
+	font-size: 1.2em;
+    color: black;
+    margin-bottom: 0.1em;
+	
+}
+
+.sidearticles p {
+    font-size: 1.15em;
+}
+
+.sidearticles .article1 img.imgleft {
+	padding: 0em;
+	margin: -1em 2em 0em 1em;
+	
+	background-color: gray;
+	float: left;
+}
+
+.sidearticles .article1 {
+	width: 612px;
+	margin-bottom: 2em;
+	color: black;
+}
+
+.sidearticles .article2 {
+	margin-top: 3em;
+	width: 612px;
+	height: 85px;
+    color: black;
+}
+
+.article2 h4 {
+	width: 400px;
+	margin-top: 1em;
+	margin-left: 1em;
+	
+}
+
+.article2 img.imgright {
+	margin-top: -1.5em;
+	margin-right: 2em;
+	float: right;
+}
+
+.article2 p {
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	
+}
+
+/* Destinations Section */
+
+.featuredestinations {
+	display: flex;
+	background-color: rgb(176,196,222,0);
+	width: 1100px;
+	margin-left: 50px;
+	height: 430px;
+	color: black;
+}
+
+.featuredestinations .placespace {
+	width: 400px;
+	margin: 3em 0em 2em 0em;
+	background-color: white;
+	padding: 1em 2em 0em 2em;
+	position: relative;
+	z-index: 2;
+	border-top: 10px solid mediumblue;
+}
+
+
+.featuredestinations h3 {
+    background-color: rgb(176,196,222,0);
+	left: 15%;
+	margin-top: -.2em;
+	width: 1082px;
+	/*border-bottom: 10px solid mediumblue;*/
+	position: absolute;
+    z-index: 1000;
+    font-weight: 900;
+    color: mediumblue;
+}
+
+.featuredestinations h4 {
+    margin-top: -.05em;
+	margin-bottom: .2em;
+    color: black;
+}
+
+.featuredestinations p {
+    font-size: 1.2em;
+}
+
+.events {
+	background-color: rgb(176,196,222,0);
+	width: 1100px;
+	margin-left: 50px;
+    
+}
+
+.events h3 {
+	margin-top: 0em;
+	background-color: rgb(176,196,222,0);
+	color: mediumblue;
+    position: relative;
+    z-index: 2;
+    left: 10%;
+}
+
+div.burning {
+	width: 1100px;
+	height: 320px;
+	border-top: 10px solid mediumblue;
+    position: relative;
+    z-index: 4;
+    background-color: white;
+    
+}
+
+.burning h4 {
+	position: relative;
+   
+	top: -11em;
+	left: 13.5em;
+    z-index: 2;
+	background-color: goldenrod;
+	padding-top: 1.5em;
+	width: 400px;
+	height: 80px;
+	text-align: center;
+	color: black;
+	opacity: .85;
+	border-radius: 15%;
+    
+}
+
+img.burningspace {
+	margin-top: 1em;
+	margin-left:3.6em;
+    position: relative;
+    z-index: 2;
+	
+}
+
+img.diwali {
+    margin-left:3.6em;
+    position: relative;
+    z-index: 2;
+}
+
+.diwali {
+	height: 420px;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+
+.diwali h4 {
+	position: relative;
+	top: -11.5em;
+	left: 12.3em;
+    z-index: 2;
+	background-color: goldenrod;
+	padding-top: 1.5em;
+	width: 460px;
+	height: 80px;
+	text-align: center;
+	color: black;
+	opacity: .85;
+	border-radius: 15%;
+}
+
+#diwali {
+	margin-left: 3.6em;
+    margin-right: 3.8em;
+	height: 300px;
+	width: 500px;
+    position: relative;
+    z-index: 2;
+}
+
+#diwali2 {
+    height: 300px;
+	width: 422px;
+    position: relative;
+    z-index: 2;
+}
+
+#muertos {
+	height: 300px;
+	width: 500px;
+	margin-top: -6em;
+	margin-left: 3.6em;
+    margin-right: 3.6em;
+	position: relative;
+    z-index: 2;
+}
+
+#muertos2 {
+    height: 300px;
+	width: 422px;
+	margin-top: -6em;
+    
+	position: relative;
+    z-index: 2;
+}
+
+.muertos {
+	height: 220px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+	
+}
+
+.muertos h4 {
+	position: relative;
+    z-index: 2;
+	top: -11.5em;
+	left: 12.3em;
+	background-color: goldenrod;
+	padding-top: 1.5em;
+	width: 460px;
+	height: 80px;
+	text-align: center;
+	color: black;
+	opacity: .85;
+	border-radius: 15%;
+}
+
+.extra1 {
+	width: 110px;
+	height: 2200px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+.extra2 {
+	width: 80px;
+	height: 2200px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+.extra3 {
+    width: 180px;
+    height: 2200px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+.extra4 {
+	width: 20px;
+	height: 2200px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+.extra5 {
+	width: 10px;
+	height: 2200px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+.extra6 {
+	width: 60px;
+	height: 2200px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+.extra7 {
+	width: 15px;
+	height: 2200px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+.extra8 {
+	width: 20px;
+	height: 2200px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;
+    
+}
+
+footer {
+	clear: both;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background-color: goldenrod;
+	color: mediumblue;
+	z-index: 2;
+    margin-bottom: -1em;
+    outline: 1px solid whitesmoke;
+}
+
+footer address {
+	margin-left: 2em;
+	margin-top: -.5em;
+	font-size: 1.2em;
+	
+}
+
+footer p {
+	margin-top: .5em;
+	margin-left: 2em;
+	font-size: 1.6em;
+    color: mediumblue;
+}
+
+footer .company {
+	background-image: url("images/travelboat_xsm.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-bottom: 10px solid mediumblue;
+	width: 1204px;
+	height: 52px;
+
+}
+
+footer h4 {
+	border-top: 1px solid mediumblue;
+	margin-left: 0.05em;
+	width: 100%;
+	font-size: 2em;
+	text-indent: .95em;
+	color: mediumblue;
+    text-shadow: -.05em -.03em ghostwhite;
+}
+
+small {
+	margin-left: 77%;
+	
+}
+
+/*.disabled {
+    pointer-events: none;
+}*/
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  margin-left: 12em;
+  margin-top: -1.5em;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: inline-block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+a[href="#top"] {
+    position: relative;
+    top: 1em;
+    left: 1em;
+    font-size: 1.2em;
+}
+
+/*FORM STYLING (Flights)*/
+
+#flights form {
+    background-color: rgb(0,0,0,0);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#flights h2 {
+    margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 488px;
+    height: 4.6em;
+	text-align: center;
+	font-size: 4em;
+	padding: 0;
+}
+
+#flights #transcend {
+	position: relative;
+	right: .54em;
+    top: -.2em;
+	font-size: 2.8em;
+	opacity: .3;
+	color: white;
+}
+
+#flights a[href="#top"] {
+    position: relative;
+    top: -13em;
+    left: 1em;
+    font-size: 1.2em;
+}
+
+fieldset {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 0em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+
+
+#contact {
+    position: relative;
+    z-index: 100;
+    
+}
+
+#contact input {
+    width: 18em;
+    position: relative;
+    left: -4.8em;
+}
+
+#contact label:first-of-type {
+    margin-left: 25%;   
+}
+
+#contact label:nth-of-type(2) {
+    margin-left: -5%;   
+}
+
+#cities label:first-of-type {
+    margin-left: 25%;
+}
+
+
+#cities label:nth-of-type(2) {
+    margin-left: 26.4%;
+}
+
+#cities input:first-of-type {
+    margin-bottom:1.5em;
+}
+
+#cities label {
+    margin-right: .5em
+}
+
+#passengers label:first-of-type {
+    margin-left: 25%;
+}
+
+#passengers input {
+    width: 3em;
+}
+
+#options select {
+    margin-left: 25%;
+    margin-top: 1em;
+}
+
+#options p {
+    margin-left: 25%;
+}
+
+#options p:nth-of-type(2) {
+    margin-top: 2em;
+}
+
+#options textarea {
+    margin-left: 27%;
+    width: 40%;
+}
+
+#comments {
+    margin-top: 2em;
+}
+
+label.checkbox {
+    display: block;
+    margin-left: 27%;
+    margin-bottom: 1em;
+}
+
+.radio:first-of-type {
+    margin-left: 27%;
+}
+
+.radio {
+    margin-right: 1em;
+}
+
+input {
+    margin-right: 1em;
+    border-radius: .5em;
+    padding-left: 1.2em;
+}
+
+select, textarea {
+    border-radius: .5em;
+    font-size: 1rem;
+    padding: .25em;
+}
+
+legend {
+    margin-left: 20%;
+    margin-right: auto;
+    padding: .25em;
+    color: white;
+    font-size: 1.5em;
+    background-color: rgba(0,0,0,.8);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/*fieldset#contact label {
+    display: none;
+}*/
+
+fieldset#contact input {
+    margin-left: 5em;
+}
+
+#ddate select[name="departuremonth"] {
+    margin-left: 25%;
+}
+
+fieldset#rdate {
+    display: inline-block;
+    position: relative;
+    top: -12.205em;
+    border: none;
+    width: 95.5%;
+    background-color: rgb(0,0,0,0);
+}
+
+fieldset#rdate legend {
+    margin-left: 64%;
+}
+
+fieldset#rdate select[name=returnmonth] {
+    margin-left: 68.8%;
+    
+}
+
+fieldset#rdate select[name=returnmonth] {
+    margin-left: 70%;
+}
+
+#passengers, #options {
+    position: relative;
+    z-index: 101;
+    top: -15.21em;
+}
+
+input[type=submit] {
+    position: relative;
+    width: 20%;
+    z-index: 101;
+    top: -9.2em;
+    left: 6%;
+    font-size: 2em;
+    padding: .5em;
+    margin-left: 22%;
+    background-color: rgba(0,0,0,.8);
+    color: white;
+}
+
+input[type=reset] {
+    position: relative;
+    z-index: 101;
+    top: -9.2em;
+    left: 6%;
+    font-size: 2em;
+    padding: .5em;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    width: 20%;
+}
+
+#cities, #ddate, #rdate {
+    position: relative;
+    z-index: 100;
+}
+
+#flights .extra1 {
+	width: 110px;
+	height: 2000px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#flights .extra2 {
+	width: 80px;
+	height: 2000px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#flights .extra3 {
+    width: 180px;
+    height: 2000px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#flights .extra4 {
+	width: 20px;
+	height: 2000px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#flights .extra5 {
+	width: 10px;
+	height: 2000px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#flights .extra6 {
+	width: 60px;
+	height: 2000px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#flights .extra7 {
+	width: 15px;
+	height: 2000px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#flights .extra8 {
+	width: 20px;
+	height: 2000px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+#flights footer {
+    position: relative;
+    top: -14.9em;
+    
+}
+
+#flights .page-wrapper {
+    height: 143em;
+}
+
+*:focus {
+  outline: 2px solid goldenrod;
+  outline-offset: 2px;
+}
+
+
+/*FORM STYLING (Hotels)*/
+
+#hotels #transcend {
+	position: relative;
+    width: 1200px;
+    top: .95em;
+	bottom: .25em;
+	right: 4.4em;
+	font-size: 2.8em;
+	opacity: .3;
+	color: white;
+}
+
+#hotels h2 {
+    position: relative;
+    left: -.6em;
+    top: -.8em;
+    width: 488px;
+    height: 5.76em;;
+}
+
+#hotels {
+    box-sizing: border-box;
+}
+
+#hotels .checkinout {
+    display: inline;
+}
+
+#hotels .hotelstay {
+    width: 1000px;
+}
+
+#hotels #hotelsearch {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    margin-bottom: 5em;
+    z-index: 2000;
+    padding: 0em;
+    border-radius: 0;
+    background-color: rgb(0,0,0,.8);
+
+}
+
+#hotels blockquote {
+    font-size: 1.2em;
+    width: 802px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+}
+
+#hotels #joe {
+    margin-left: 16.5%;
+}
+
+#hotels #centerfields {
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 1em;
+    
+}
+
+
+#hotels #hotelsearch button {
+    font-size: 1.5em;
+    background-color: goldenrod;
+    border-radius: 25px;
+    margin-top: .5em;
+    margin-left: 22%;
+}
+
+#hotels .featuredspecials {
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 88em;
+    margin-bottom: 4em; 
+    border-top: 10px solid mediumblue;
+}
+
+#hotels .featuredspecials h3 {
+    position: absolute;
+    top: -2.7em;
+    color: mediumblue;
+    margin-left: 15%;
+}
+
+#hotels img {
+    float: left;
+    padding: 1em;
+}
+
+#hotels #placespace1 h4 {
+    width: 342px;
+    float: right;
+    margin-top: 3em;
+    margin-bottom: -.25em;
+    color: black;
+}
+
+#hotels #placespace2 h4 {
+    width: 342px;
+    float: right;
+    margin-top: 10em;
+    margin-bottom: -.25em;
+    color: black;
+}
+
+#hotels #placespace3 h4 {
+    width: 342px;
+    float: right;
+    margin-top: 8em;
+    margin-bottom: -.25em;
+    color: black;
+}
+
+#hotels .featuredspecials p {
+   width: 330px;
+   float: right;
+   font-size: 1.5em;
+   padding-right: .5em;
+}
+
+#hotels aside {
+    position: relative;
+    z-index: 10;
+    background-color: rgb(0,0,0,.8);
+    padding: 10px;
+}
+
+
+#hotels aside li, #hotels aside p {
+    position: relative;
+    z-index: 10;
+    font-size: 1.3em;
+    color: white;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#hotels aside {
+    width: 1184px;
+    height: 220px;
+}
+
+#hotels #list1 {
+    width: 200px;
+    float: left;
+    margin-right: 10em;
+}
+
+#hotels #list2 {
+    width: 200px;
+    float: left;
+}
+
+#hotels .asidecenter {
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hotels .extra1 {
+	width: 110px;
+	height: 2550px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#hotels .extra2 {
+	width: 80px;
+	height: 2550px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#hotels .extra3 {
+    width: 180px;
+    height: 2550px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#hotels .extra4 {
+	width: 20px;
+	height: 2550px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#hotels .extra5 {
+	width: 10px;
+	height: 2550px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#hotels .extra6 {
+	width: 60px;
+	height: 2550px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#hotels .extra7 {
+	width: 15px;
+	height: 2550px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#hotels .extra8 {
+	width: 20px;
+	height: 2550px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+#hotels #hotelsearch input[type=number] {
+     width: 2.4em;
+}
+
+#hotels #hotelsearch input[type=text] {
+    width: 12em;
+}
+
+/*FORM STYLING (carrentals)*/
+
+#carrentals #economical {
+	position: relative;
+    top: -1.8em;
+    width: 488px;
+   
+}
+
+#carrentals #transcend {
+	position: relative;
+    width: 1200px;
+    top: .25em;
+	bottom: .25em;
+	right: 3.95em;
+	font-size: 2.8em;
+	opacity: .3;
+	color: white;
+}
+
+#carrentals {
+    box-sizing: border-box;
+}
+
+#carrentals h2 {
+    position: relative;
+    left: .2em;
+    top: 0em;
+    width: 488px;
+    height: 5.76em;;
+}
+
+
+#carrentals .checkinout {
+    display: inline;
+}
+
+#carrentals .hotelstay {
+    width: 1000px;
+}
+
+#carrentals #hotelsearch {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    margin-bottom: 5em;
+    opacity: 1;
+    z-index: 2000;
+    padding: 0em;
+    border-radius: 0;
+
+}
+
+#carrentals blockquote {
+    font-size: 1.2em;
+    width: 802px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+}
+
+#carrentals #joe {
+    margin-left: 16.5%;
+}
+
+#carrentals #centerfields {
+    width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 1em;
+    
+}
+
+
+#carrentals button {
+    font-size: 1.5em;
+    background-color: goldenrod;
+    border-radius: 25px;
+    margin-top: .5em;
+    margin-left: 22%;
+}
+
+#carrentals .featuredspecials {
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 91em;
+    margin-bottom: 4em; 
+    border-top: 10px solid mediumblue;
+}
+
+#carrentals .featuredspecials h3 {
+    position: absolute;
+    top: -2.7em;
+    color: mediumblue;
+    margin-left: 15%;
+}
+
+#carrentals img {
+    float: left;
+    padding: 1em;
+}
+
+#carrentals #placespace1 h4 {
+    width: 342px;
+    float: right;
+    margin-top: 3em;
+    margin-bottom: -.25em;
+    color: black;
+}
+
+#carrentals #placespace2 h4 {
+    width: 342px;
+    float: right;
+    margin-top: 12em;
+    margin-bottom: -.25em;
+    color: black;
+}
+
+#carrentals #placespace3 h4 {
+    width: 342px;
+    float: right;
+    margin-top: 9em;
+    margin-bottom: -.25em;
+    color: black;
+}
+
+#carrentals .featuredspecials p {
+   width: 330px;
+   float: right;
+   font-size: 1.5em;
+   padding-right: .5em;
+}
+
+#carrentals aside {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+}
+
+
+#carrentals aside li, #carrentals aside p {
+    position: relative;
+    z-index: 10;
+    font-size: 1.3em;
+    color: white;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#carrentals aside {
+    width: 1184px;
+    height: 220px;
+}
+
+#carrentals #list1 {
+   
+}
+
+
+#carrentals .asidecenter {
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carrentals .extra1 {
+	width: 110px;
+	height: 2600px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#carrentals .extra2 {
+	width: 80px;
+	height: 2600px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#carrentals .extra3 {
+    width: 180px;
+    height: 2600px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#carrentals .extra4 {
+	width: 20px;
+	height: 2600px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#carrentals .extra5 {
+	width: 10px;
+	height: 2600px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#carrentals .extra6 {
+	width: 60px;
+	height: 2600px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#carrentals .extra7 {
+	width: 15px;
+	height: 2600px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#carrentals .extra8 {
+	width: 20px;
+	height: 2600px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+#carrentals #hotelsearch input[type=number] {
+    width: 2.4em;
+}
+
+#carrentals #hotelsearch input[type=text], #carrentals #hotelsearch select[name=selectvehicle] {
+    width: 12em;
+}
+
+/*NEWSLETTER STYLING*/
+
+#accordion p {
+    font-size: 1.3em;
+    font-family: belleza;
+}
+
+#accordion li {
+    font-size: 1.3em;
+    font-family: belleza;
+}
+
+#jannews .mainarticle h4 {
+	padding: 2.8em 0em 1em 0em;
+	color: lightblue;
+	text-align: center;
+	width: 592px;
+	height: 88px;
+	background-image: url("images/covidspikes.jpeg");
+	background-size: 592px 200px;
+	background-repeat: no-repeat;
+	border: 0px solid white;
+	margin: 0em 0em 1.3em;
+	position: relative;
+	z-index: 2;
+}
+
+#febnews .mainarticle h4 {
+	padding: 2.8em 0em 1em 0em;
+	color: darkgoldenrod;
+	text-align: center;
+	width: 592px;
+	height: 88px;
+	background-image: url("images/hammock.jpeg");
+	background-size: 592px 200px;
+	background-repeat: no-repeat;
+	border: 0px solid white;
+	margin: 0em 0em 1.3em;
+	position: relative;
+	z-index: 2;
+}
+
+#febnews .mainarticle p {
+    margin: -2em 0em 0em 0em;;
+    
+    padding: .5em 1em .5em 1em;
+    float: left;
+	background-color: mediumblue;
+	color: co;
+	font-size: 1.2em; 
+	position: relative;
+	z-index: 2;
+	
+}
+
+
+#accordion {
+    position: relative;
+    z-index: 100;
+    height: auto;
+}
+
+.accordionheight {
+    height: auto;
+}
+
+#jannews #accordion .aurora, #febnews #accordion .aurora {
+    float: left;
+    margin: 1em;
+    margin-top: 0.3em;
+    margin-left: 0em;
+    
+}
+
+#jannews #accordion ul, #febnews #accordion ul {
+    
+    position: relative;
+    right: -2em;
+}
+
+#accordion h3:active {
+    background-color: mediumblue;
+    
+}
+
+ui-accordion-header:active {
+    background-color: mediumblue;
+}
+
+ui-accordion-content-active {
+    heightstyle: auto;
+}
+
+#jannews #transcend {
+    font-size: 2.8em;
+    position: relative;
+    top: .82em;
+    right: 4em;
+}
+
+#jannews h2 {
+    height: 5.76em;
+    position: relative;
+    top: -.5em;
+}
+
+#febnews #transcend {
+    font-size: 2.8em;
+    position: relative;
+    top: -.18em;
+    right: 1.8em;
+}
+
+#febnews h2 {
+    height: 5.76em;
+    position: relative;
+    top: 1.1em;
+}
+
+#jannews .extra1 {
+	width: 110px;
+	height: 2000px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#jannews .extra2 {
+	width: 80px;
+	height: 2000px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#jannews .extra3 {
+    width: 180px;
+    height: 2000px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#jannews .extra4 {
+	width: 20px;
+	height: 2000px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#jannews .extra5 {
+	width: 10px;
+	height: 2000px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#jannews .extra6 {
+	width: 60px;
+	height: 2000px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#jannews .extra7 {
+	width: 15px;
+	height: 2000px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#jannews .extra8 {
+	width: 20px;
+	height: 2000px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+#febnews .extra1 {
+	width: 110px;
+	height: 2100px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#febnews .extra2 {
+	width: 80px;
+	height: 2100px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#febnews .extra3 {
+    width: 180px;
+    height: 2100px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#febnews .extra4 {
+	width: 20px;
+	height: 2100px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#febnews .extra5 {
+	width: 10px;
+	height: 2100px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#febnews .extra6 {
+	width: 60px;
+	height: 2100px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#febnews .extra7 {
+	width: 15px;
+	height: 2100px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#febnews .extra8 {
+	width: 20px;
+	height: 2100px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+/*STYLING - ABOUT US*/
+
+#aboutus h3 {
+    color: mediumblue;
+    position: relative;
+    z-index: 100;
+    left: 15%;
+}
+
+#aboutus #transcend {
+    font-size: 2.8em;
+    position: relative;
+    top: -.18em;
+    right: 0.65em;
+}
+
+#aboutus h2 {
+    height: 5.76em;
+    position: relative;
+    top: 1.05em;
+}
+
+.dolist, .ceoquote {
+    position: relative;
+    z-index: 100;
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whatsdoing .dolist p:first-of-type {
+    padding-top: 2em;
+}
+
+.dolist p, .dolist dl {
+    font-size: 1.5em;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dolist h4, .ceoquote h4 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dolist dt {
+    font-weight: bold;
+}
+
+.dolist dd {
+    padding-bottom: 1em;
+}
+
+.dolist dd:last-of-type {
+    padding-bottom: 2em;
+}
+
+.bordertop {
+    border-top: 10px solid mediumblue;
+}
+
+.ceoquote blockquote {
+    
+}
+
+.ceoquote blockquote {
+    font-size: 2em;
+    padding-bottom: 1.5em;
+}
+
+#aboutus .extra1 {
+	width: 110px;
+	height: 2000px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#aboutus .extra2 {
+	width: 80px;
+	height: 2000px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#aboutus .extra3 {
+    width: 180px;
+    height: 2000px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#aboutus .extra4 {
+	width: 20px;
+	height: 2000px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#aboutus .extra5 {
+	width: 10px;
+	height: 2000px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#aboutus .extra6 {
+	width: 60px;
+	height: 2000px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#aboutus .extra7 {
+	width: 15px;
+	height: 2000px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#aboutus .extra8 {
+	width: 20px;
+	height: 2000px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+/*KIDS & FAMILY*/
+
+#kidsfamily #transcend {
+    font-size: 2.8em;
+    position: relative;
+    top: -.15em;
+    right: 1.8em;
+}
+
+#kidsfamily h2 {
+    height: 5.76em;
+    position: relative;
+    top: 0em;
+}
+
+.kidsstuff {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: white;
+    padding: 1em;
+    font-size: 1.5em;
+    position: relative;
+    z-index: 100;
+    border-top: 10px solid mediumblue;
+}
+
+#kidsfamily .newsfeatures {
+    margin-top: -2em;
+    margin-bottom: 10em;
+    padding: 1em;
+}
+
+#kidsfamily .burning h4 {
+    position: relative;
+    z-index: 100;
+    top: -3.2em;
+    width: 8em;
+    left: 16em;
+}
+
+#kidsfamily .diwali h4 {
+    display: none;
+}
+
+#kidsfamily .muertos h4 {
+    position: relative;
+    z-index: 100;
+    top: -7.2em;
+    width: 8em;
+    padding-bottom: 1em;
+    left: 16em;
+}
+#kidsfamily .extra1 {
+	width: 110px;
+	height: 2400px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#kidsfamily .extra2 {
+	width: 80px;
+	height: 2400px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#kidsfamily .extra3 {
+    width: 180px;
+    height: 2400px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#kidsfamily .extra4 {
+	width: 20px;
+	height: 2400px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#kidsfamily .extra5 {
+	width: 10px;
+	height: 2400px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#kidsfamily .extra6 {
+	width: 60px;
+	height: 2400px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#kidsfamily .extra7 {
+	width: 15px;
+	height: 2400px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#kidsfamily .extra8 {
+	width: 20px;
+	height: 2400px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+/* ROMANCE */
+
+#romance #transcend {
+    font-size: 2.8em;
+    position: relative;
+    top: -.2em;
+    right: .64em;
+}
+
+#romance h2 {
+    height: 5.76em;
+    position: relative;
+    top: 0em;
+}
+
+#romance .newsfeatures {
+    margin-bottom: 8.5em;
+    margin-top: -2em;
+    padding: 1em;
+}
+
+#romance .featuredestinations {
+    
+    height: 29em;
+    margin-top: 11em;
+}
+
+#romance .featuredestinations .placespace p {
+    padding-bottom: 2em;
+}
+
+#romance .extra1 {
+	width: 110px;
+	height: 2400px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#romance .extra2 {
+	width: 80px;
+	height: 2400px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#romance .extra3 {
+    width: 180px;
+    height: 2400px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#romance .extra4 {
+	width: 20px;
+	height: 2400px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#romance .extra5 {
+	width: 10px;
+	height: 2400px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#romance .extra6 {
+	width: 60px;
+	height: 2400px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#romance .extra7 {
+	width: 15px;
+	height: 2400px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#romance .extra8 {
+	width: 20px;
+	height: 2400px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+#romance .events h4 {
+    width: 12em;
+    position: relative;
+    left: 14em;
+}
+
+/* ADVENTURE */
+
+#adventure #transcend {
+    font-size: 2.8em;
+    position: relative;
+    top: -.18em;
+    right: .9em;
+}
+
+#adventure h2 {
+    height: 5.76em;
+    position: relative;
+    top: 0em;
+}
+
+#adventure .newsfeatures {
+    margin-bottom: 8.5em;
+    margin-top: -2em;
+    padding: 1em;
+}
+
+#adventure .featuredestinations {
+    
+    height: 29em;
+    margin-top: 11em;
+}
+
+#adventure .featuredestinations .placespace p {
+    padding-bottom: 2em;
+}
+
+#adventure .extra1 {
+	width: 110px;
+	height: 2400px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#adventure .extra2 {
+	width: 80px;
+	height: 2400px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#adventure .extra3 {
+    width: 180px;
+    height: 2400px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#adventure .extra4 {
+	width: 20px;
+	height: 2400px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#adventure .extra5 {
+	width: 10px;
+	height: 2400px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#adventure .extra6 {
+	width: 60px;
+	height: 2400px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#adventure .extra7 {
+	width: 15px;
+	height: 2400px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#adventure .extra8 {
+	width: 20px;
+	height: 2400px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+#adventure .events h4 {
+    width: 12em;
+    position: relative;
+    left: 14em;
+}
+
+/* LECTURE TOURS */
+
+#lecturetours #transcend {
+    font-size: 2.8em;
+    position: relative;
+    top: -.18em;
+    right: 1.6em;
+}
+
+#lecturetours h2 {
+    height: 5.76em;
+    position: relative;
+    top: 0em;
+}
+
+#lecturetours .newsfeatures {
+    margin-bottom: 8.5em;
+    margin-top: -2em;
+    padding: 1em;
+}
+
+#lecturetours .featuredestinations {
+    
+    height: 29em;
+    margin-top: 11em;
+}
+
+#lecturetours .featuredestinations .placespace p {
+    padding-bottom: 2em;
+}
+
+#lecturetours .extra1 {
+	width: 110px;
+	height: 2400px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#lecturetours .extra2 {
+	width: 80px;
+	height: 2400px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#lecturetours .extra3 {
+    width: 180px;
+    height: 2400px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#lecturetours .extra4 {
+	width: 20px;
+	height: 2400px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#lecturetours .extra5 {
+	width: 10px;
+	height: 2400px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#lecturetours .extra6 {
+	width: 60px;
+	height: 2400px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#lecturetours .extra7 {
+	width: 15px;
+	height: 2400px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#lecturetours .extra8 {
+	width: 20px;
+	height: 2400px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+#lecturetours .events h4 {
+    width: 12em;
+    position: relative;
+    left: 14em;
+}
+
+#kidsfamily li, #romance li, #adventure li, #lecturetours li {
+    font-family: Belleza;
+    color: black;
+}
+
+#kidsfamily p, #romance p, #adventure p, #lecturetours p {
+    font-family: Belleza;
+    color: black;
+}
+
+/* PACKAGES - TABLE & OTHER STYLING */
+
+#packages #transcend {
+    font-size: 2.8em;
+    position: relative;
+    top: -.18em;
+    right: 1.68em;
+}
+
+#packages h2 {
+    position: relative;
+    left: 0em;
+    top: 0em;
+    width: 488px;
+    height: 5.76em;;
+}
+
+
+#packages .kidsstuff p {
+    color: black;
+}
+
+#packages .newsfeatures nav ul {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em;
+    border: 5px solid mediumblue;
+    border-radius: 8px;
+}
+
+#packages .newsfeatures nav li {
+    list-style-type: none;
+    display: inline;
+    margin-left: .8em;
+    margin-right: .8em;
+    padding: 0em;
+    border-radius: 25px;
+    border: 3px solid mediumblue;
+    background-color: goldenrod;
+    font-family: serif;
+    
+}
+
+#packages .kidsstuff nav a {
+    padding: 0em .8em 0em .8em;
+    border-radius: 25px;
+}
+
+#packages .newsfeatures nav a {
+    color: mediumblue;
+
+    text-decoration: none;
+}
+
+#packages table  {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: rgba(0,0,0,.8);
+    position: relative;
+    z-index: 10;
+    font-size: 1.2em;
+    
+}
+
+#packages caption {
+   width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: rgba(0,0,0,.8);
+    position: relative;
+    z-index: 10;
+    font-size: 1.2em; 
+}
+
+tr td {
+    text-align: center;
+}
+
+caption {
+    padding: .5em;
+    font-size: 1.5em
+}
+
+th {
+    background-color: white;
+    color: black;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    
+}
+
+td {
+   padding-top: .8em;
+   padding-bottom: .8em;
+   
+}
+
+tr:hover {
+    background-color: goldenrod;
+    color: mediumblue;
+}
+
+#packages fieldset {
+    position: relative;
+    z-index: 100;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#packages .extra1 {
+	width: 110px;
+	height: 1425px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#packages .extra2 {
+	width: 80px;
+	height: 1425px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#packages .extra3 {
+    width: 180px;
+    height: 1425px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#packages .extra4 {
+	width: 20px;
+	height: 1425px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#packages .extra5 {
+	width: 10px;
+	height: 1425px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#packages .extra6 {
+	width: 60px;
+	height: 1425px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#packages .extra7 {
+	width: 15px;
+	height: 1425px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#packages .extra8 {
+	width: 20px;
+	height: 1425px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+#packages .kidsstuff ul a:hover, #packages .kidsstuff li:hover {
+    background-color: mediumblue;
+    color: ghostwhite;
+}
+
+#packages .kidsstuff ul a:active, #packages .kidsstuff ul li:active {
+    background-color: darkred;
+    color: ghostwhite;
+    
+}
+
+/* NEWSLETTER */
+
+#newsletter #transcend {
+    font-size: 2.8em;
+    position: relative;
+    top: -.18em;
+    right: 1.1em;
+}
+
+#newsletter h2 {
+    position: relative;
+    left: -.2em;
+    top: 0em;
+    width: 488px;
+    height: 5.76em;;
+}
+
+
+#newsletter fieldset {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3em;
+    margin-bottom: 1em;
+}
+
+#newsletter .kidsstuff li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 2em;
+    font-size: .8em;
+}
+
+#newsletter .kidsstuff p {
+    color: black;
+    font-size: 1em;
+}
+
+#newsletter .extra1 {
+	width: 110px;
+	height: 1800px;
+	background-color: coral;
+	opacity: .5;
+	position: absolute;
+	top: 20em;
+	left: 53em;
+	z-index: 1;
+    
+}
+
+#newsletter .extra2 {
+	width: 80px;
+	height: 1800px;
+	background-color: goldenrod;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#newsletter .extra3 {
+    width: 180px;
+    height: 1800px;
+    background-color: rgba(27,73,116,1.00);
+    opacity: .8;
+    position: absolute;
+    top: 20em;
+    left: 43em;
+    z-index: 1;
+    
+}
+
+#newsletter .extra4 {
+	width: 20px;
+	height: 1800px;
+	background-color: white;
+	opacity: .8;
+	position: absolute;
+	top: 20em;
+	left: 52em;
+	z-index: 1;
+    
+}
+
+#newsletter .extra5 {
+	width: 10px;
+	height: 1800px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 43em;
+	z-index: 1;
+    
+}
+
+#newsletter .extra6 {
+	width: 60px;
+	height: 1800px;
+	background-color: white;
+	opacity: .4;
+	position: absolute;
+	top: 20em;
+	left: 58.5em;
+	z-index: 1;
+    
+}
+
+#newsletter .extra7 {
+	width: 15px;
+	height: 1800px;
+	background-color: white;
+	opacity: .95;
+	position: absolute;
+	top: 20em;
+	left: 39em;
+	z-index: 1;
+    
+}
+
+#newsletter .extra8 {
+	width: 20px;
+	height: 1800px;
+	background-color: white;
+	opacity: .85;
+	position: absolute;
+	top: 20em;
+	left: 48.5em;
+	z-index: 1;   
+}
+
+#k2 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#k2 iframe, #k2 img {
+    width: 47%;
+    margin-left: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: -1em;
+}
+
+.signup {
+    font-size: 1.5em;
+    background-color: goldenrod;
+    border-radius: 25px;
+    margin-top: .5em;
+    margin-left: 20%;
+    border: 2px solid darkgoldenrod;
+}
+
+#newsletter #contact p {
+    width: 55%;
+    margin-left: 25%;
+}
