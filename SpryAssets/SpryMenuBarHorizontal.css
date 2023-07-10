@@ -173,11 +173,18 @@ ul.MenuBarHorizontal iframe {
 
 #home nav .home a,
 #packages nav .packages a,
+#kidsfamily nav .packages a,
+#romance nav .packages a,
+#adventure nav .packages a,
+#lecturetours nav .packages a,
 #flights nav .flights a,
 #hotels nav .hotels a,
-#cars nav .cars a,
+#carrentals nav .cars a,
 #newsletter nav .newsletter a,
-#contact nav .contact a 
+#jannews nav .newsletter a,
+#febnews nav .newsletter a,
+#contact nav .contact a, 
+#aboutus nav .about a
 	{
 background: #94B8E0 url(images/button-background-current.png) no-repeat left top;
 color: #fff;
