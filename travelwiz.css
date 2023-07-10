@@ -18,7 +18,7 @@ body {
 	margin-right: auto;
 	margin-top: 0;
 	width: 1204px;
-	background-image: linear-gradient(180deg, rgba(27,73,116,1.00),steelblue 15%, steelblue 25%, aliceblue 32%, steelblue 50%, rgba(27,73,116,1.00));
+	background-image: linear-gradient(180deg, rgba(27,73,116,1.00),steelblue 15%, steelblue 33%, aliceblue 42%, steelblue 70%, rgba(27,73,116,1.00));
     font-family: serif;
     background-attachment: fixed;
 	/*background-image: url("images/zengrid.png");
@@ -2921,4 +2921,1064 @@ tr:hover {
 #newsletter #contact p {
     width: 55%;
     margin-left: 25%;
+}
+
+@media screen and (max-width: 860px) {
+
+	#home .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -48.5em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+    #packages .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -32.8em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#kidsfamily .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -50em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#romance .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -51em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#adventure .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -51em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#lecturetours .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -51em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#flights .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -41.3em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#hotels .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -54.6em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#carrentals .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -55.6em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#newsletter .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -41.3em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#jannews .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -45em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#febnews .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -45.7em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#aboutus .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.4);
+		top: -43em;
+		left: -20.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+}
+
+@media screen and (max-width: 520px) {
+
+	#home .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -57em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+    #packages .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -38.7em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#kidsfamily .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -58.7em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#romance .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -59.8em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#adventure .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -59.8em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#lecturetours .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -59.8em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#flights .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -48.6em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#hotels .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -64.1em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#carrentals .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -65.3em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#newsletter .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -48.6em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#jannews .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -53em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#febnews .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -53.7em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#aboutus .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.3);
+		top: -50.6em;
+		left: -24.8em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+}
+
+@media screen and (max-width: 400px) {
+
+	#home .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -59em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+    #packages .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -40.2em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#kidsfamily .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -60.7em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#romance .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -61.8em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#adventure .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -61.8em;
+		left: -26em;
+		overflow-x: hidden;
+		v
+	}
+
+	#lecturetours .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -61.8em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#flights .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -50.4em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#hotels .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -66.3em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#carrentals .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -67.5em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#newsletter .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -50.4em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#jannews .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -54.9em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#febnews .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -55.6em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#aboutus .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.28);
+		top: -52.5em;
+		left: -26em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+}
+
+@media screen and (max-width: 330px) {
+
+	#home .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -62em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+    #packages .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -42.4em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#kidsfamily .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -63.8em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#romance .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -65em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#adventure .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -65em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#lecturetours .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -65em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#flights .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -53em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#hotels .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -69.6em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#carrentals .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -70.9em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#newsletter .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -53em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#jannews .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -57.8em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#febnews .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -58.5em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#aboutus .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.25);
+		top: -55.2em;
+		left: -27.6em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+}
+
+@media screen and (max-width: 300px) {
+
+	#home .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -64.2em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+    #packages .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -44em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#kidsfamily .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -66em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#romance .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -67.3em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#adventure .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -67.3em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#lecturetours .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -67.3em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#flights .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -55em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#hotels .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -72em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#carrentals .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -73.3em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#newsletter .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -55em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#jannews .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -59.8em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#febnews .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -60.6em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
+	#aboutus .page-wrapper {
+		background-color: rgb(176,196,222,.5);
+		width: 1204px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0;
+		border: 1px solid lightsteelblue;
+		position: relative;
+		opacity: 1;
+		transform: scale(.23);
+		top: -57.2em;
+		left: -29em;
+		overflow-x: hidden;
+		overflow-y: hidden;
+	}
+
 }
