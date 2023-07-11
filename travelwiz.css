@@ -2923,7 +2923,7 @@ tr:hover {
     margin-left: 25%;
 }
 
-/*@media screen and (max-width: 860px) {
+@media screen and (max-width: 860px) {
 
 	#home .page-wrapper {
 		background-color: rgb(176,196,222,.5);
@@ -3981,4 +3981,4 @@ tr:hover {
 		overflow-y: hidden;
 	}
 
-}*/
+}
