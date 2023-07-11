@@ -29,7 +29,7 @@ body {
 
 .page-wrapper {
 	background-color: rgb(176,196,222,.5);
-	width: 1204px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
