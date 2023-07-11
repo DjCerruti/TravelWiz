@@ -17,7 +17,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0;
-	width: 1204px;
+	width: 100%;
 	background-image: linear-gradient(180deg, rgba(27,73,116,1.00),steelblue 15%, steelblue 33%, aliceblue 42%, steelblue 70%, rgba(27,73,116,1.00));
     font-family: serif;
     background-attachment: fixed;
