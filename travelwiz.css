@@ -34,8 +34,10 @@ body {
 	margin-right: auto;
 	margin-top: 0;
 	border: 1px solid lightsteelblue;
-    position: relative;
-    opacity: 1;
+        position: relative;
+        opacity: 1;
+	overflow-x: hidden;
+        overflow-y: hidden;
 }
 
 .page-wrapper p, .page-wrapper address {
